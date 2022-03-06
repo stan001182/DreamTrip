@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>是否允許此App使用相機</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>是否允許此App使用相簿</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>是否允許此App使用相簿</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>是否允許此App定位此使用者的位置Always and When In Use Usage Description</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>是否允許此App定位此使用者的位置When In Use Usage Description</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Second</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+</dict>
+</plist>

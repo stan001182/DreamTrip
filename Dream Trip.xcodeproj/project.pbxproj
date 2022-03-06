@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD34DD516AB8AE7FA70FC413 /* Pods_Dream_Trip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905E4F6FBDF23E22903192C /* Pods_Dream_Trip.framework */; };
+		E31AD71827398ED800E24E71 /* MapVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31AD71727398ED800E24E71 /* MapVC1.swift */; };
+		E34289B0275CF8C800BB1811 /* TripVCResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34289AF275CF8C800BB1811 /* TripVCResult.swift */; };
+		E342AEAC274D25A600DC7BFB /* TripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342AEAB274D25A600DC7BFB /* TripVC.swift */; };
+		E342AEAE274D354E00DC7BFB /* addVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342AEAD274D354E00DC7BFB /* addVC.swift */; };
+		E34440EA27609CFE00C0C230 /* trip.json in Resources */ = {isa = PBXBuildFile; fileRef = E34440E927609CFE00C0C230 /* trip.json */; };
+		E35A9F7627302ABB00A0F4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A9F7527302ABB00A0F4DC /* AppDelegate.swift */; };
+		E35A9F7827302ABB00A0F4DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A9F7727302ABB00A0F4DC /* SceneDelegate.swift */; };
+		E35A9F7A27302ABB00A0F4DC /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A9F7927302ABB00A0F4DC /* ExploreVC.swift */; };
+		E35A9F7D27302ABB00A0F4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A9F7B27302ABB00A0F4DC /* Main.storyboard */; };
+		E35A9F7F27302ABC00A0F4DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35A9F7E27302ABC00A0F4DC /* Assets.xcassets */; };
+		E35A9F8227302ABC00A0F4DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A9F8027302ABC00A0F4DC /* LaunchScreen.storyboard */; };
+		E36F6B5E2750E71F00D1C38B /* TripTVCell0.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36F6B5D2750E71F00D1C38B /* TripTVCell0.swift */; };
+		E36F6B6027510F9700D1C38B /* TripTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36F6B5F27510F9700D1C38B /* TripTVCell.swift */; };
+		E37AB23227A39B6100B1A2AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E37AB23127A39B6100B1A2AB /* GoogleService-Info.plist */; };
+		E3B14691273BBADB00CE7192 /* MoreVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B14690273BBADB00CE7192 /* MoreVC0.swift */; };
+		E3D169BB273ABB1A00788B3D /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D169BA273ABB1A00788B3D /* MoreVC.swift */; };
+		E3D6021727689374002C3EAF /* ExploreTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6021627689374002C3EAF /* ExploreTVCell.swift */; };
+		E3D7FF08276A33AF00734942 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7FF07276A33AF00734942 /* LogInVC.swift */; };
+		E3D7FF0E276A54EB00734942 /* Duh Fuse - French Fuse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3D7FF0D276A54EB00734942 /* Duh Fuse - French Fuse.mp3 */; };
+		E3DD3699276B791800629F1E /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DD3697276B791800629F1E /* Second.storyboard */; };
+		E3FC00B327609ACF00A3EA57 /* ExploreDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC00B227609ACF00A3EA57 /* ExploreDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D958D5154EF7AFE7D1E2CC7 /* Pods-Dream Trip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream Trip.release.xcconfig"; path = "Target Support Files/Pods-Dream Trip/Pods-Dream Trip.release.xcconfig"; sourceTree = "<group>"; };
+		A905E4F6FBDF23E22903192C /* Pods_Dream_Trip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dream_Trip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA8841BDF6CAAC7050EF85D /* Pods-Dream Trip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream Trip.debug.xcconfig"; path = "Target Support Files/Pods-Dream Trip/Pods-Dream Trip.debug.xcconfig"; sourceTree = "<group>"; };
+		E31AD71727398ED800E24E71 /* MapVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC1.swift; sourceTree = "<group>"; };
+		E34289AF275CF8C800BB1811 /* TripVCResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripVCResult.swift; sourceTree = "<group>"; };
+		E342AEAB274D25A600DC7BFB /* TripVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripVC.swift; sourceTree = "<group>"; };
+		E342AEAD274D354E00DC7BFB /* addVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addVC.swift; sourceTree = "<group>"; };
+		E34440E927609CFE00C0C230 /* trip.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trip.json; sourceTree = "<group>"; };
+		E35A9F7227302ABB00A0F4DC /* Dream Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35A9F7527302ABB00A0F4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E35A9F7727302ABB00A0F4DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E35A9F7927302ABB00A0F4DC /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		E35A9F7C27302ABB00A0F4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E35A9F7E27302ABC00A0F4DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E35A9F8127302ABC00A0F4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E35A9F8327302ABC00A0F4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36F6B5D2750E71F00D1C38B /* TripTVCell0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTVCell0.swift; sourceTree = "<group>"; };
+		E36F6B5F27510F9700D1C38B /* TripTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTVCell.swift; sourceTree = "<group>"; };
+		E37AB23127A39B6100B1A2AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3B14690273BBADB00CE7192 /* MoreVC0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC0.swift; sourceTree = "<group>"; };
+		E3D169BA273ABB1A00788B3D /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		E3D6021627689374002C3EAF /* ExploreTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTVCell.swift; sourceTree = "<group>"; };
+		E3D7FF07276A33AF00734942 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		E3D7FF0D276A54EB00734942 /* Duh Fuse - French Fuse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Duh Fuse - French Fuse.mp3"; sourceTree = "<group>"; };
+		E3DD3698276B791800629F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Second.storyboard; sourceTree = "<group>"; };
+		E3E24286277233F00034CF07 /* taichung.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = taichung.gpx; sourceTree = "<group>"; };
+		E3FC00B227609ACF00A3EA57 /* ExploreDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E35A9F6F27302ABB00A0F4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD34DD516AB8AE7FA70FC413 /* Pods_Dream_Trip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D22D44D6F3BC1A88C449A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8841BDF6CAAC7050EF85D /* Pods-Dream Trip.debug.xcconfig */,
+				9D958D5154EF7AFE7D1E2CC7 /* Pods-Dream Trip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A50E90B6007E409BCDE1733A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A905E4F6FBDF23E22903192C /* Pods_Dream_Trip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E35A9F6927302ABB00A0F4DC = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7427302ABB00A0F4DC /* Dream Trip */,
+				E35A9F7327302ABB00A0F4DC /* Products */,
+				75D22D44D6F3BC1A88C449A2 /* Pods */,
+				A50E90B6007E409BCDE1733A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E35A9F7327302ABB00A0F4DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7227302ABB00A0F4DC /* Dream Trip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E35A9F7427302ABB00A0F4DC /* Dream Trip */ = {
+			isa = PBXGroup;
+			children = (
+				E36CA14D273917A500330C8A /* Model */,
+				E36CA14F2739180100330C8A /* View */,
+				E3D169B9273AA91E00788B3D /* Controller */,
+				E399605A27D0BBE60098B07A /* Storyboard */,
+				E36CA14E273917CA00330C8A /* Resoure */,
+				E35A9F8327302ABC00A0F4DC /* Info.plist */,
+				E37AB23127A39B6100B1A2AB /* GoogleService-Info.plist */,
+				E3E24286277233F00034CF07 /* taichung.gpx */,
+			);
+			path = "Dream Trip";
+			sourceTree = "<group>";
+		};
+		E36CA14627390E5500330C8A /* more */ = {
+			isa = PBXGroup;
+			children = (
+				E3D169BA273ABB1A00788B3D /* MoreVC.swift */,
+				E3B14690273BBADB00CE7192 /* MoreVC0.swift */,
+			);
+			name = more;
+			sourceTree = "<group>";
+		};
+		E36CA1472739105200330C8A /* explore */ = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7927302ABB00A0F4DC /* ExploreVC.swift */,
+				E3FC00B227609ACF00A3EA57 /* ExploreDetailVC.swift */,
+			);
+			name = explore;
+			sourceTree = "<group>";
+		};
+		E36CA1482739106200330C8A /* map */ = {
+			isa = PBXGroup;
+			children = (
+				E31AD71727398ED800E24E71 /* MapVC1.swift */,
+			);
+			name = map;
+			sourceTree = "<group>";
+		};
+		E36CA1492739107500330C8A /* trip */ = {
+			isa = PBXGroup;
+			children = (
+				E342AEAB274D25A600DC7BFB /* TripVC.swift */,
+				E34289AF275CF8C800BB1811 /* TripVCResult.swift */,
+			);
+			name = trip;
+			sourceTree = "<group>";
+		};
+		E36CA14A2739108000330C8A /* add */ = {
+			isa = PBXGroup;
+			children = (
+				E342AEAD274D354E00DC7BFB /* addVC.swift */,
+			);
+			name = add;
+			sourceTree = "<group>";
+		};
+		E36CA14D273917A500330C8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7527302ABB00A0F4DC /* AppDelegate.swift */,
+				E35A9F7727302ABB00A0F4DC /* SceneDelegate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E36CA14E273917CA00330C8A /* Resoure */ = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7E27302ABC00A0F4DC /* Assets.xcassets */,
+				E34440E927609CFE00C0C230 /* trip.json */,
+				E3D7FF0D276A54EB00734942 /* Duh Fuse - French Fuse.mp3 */,
+			);
+			name = Resoure;
+			sourceTree = "<group>";
+		};
+		E36CA14F2739180100330C8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E399605B27D0BC660098B07A /* explore */,
+				E399605C27D0BC910098B07A /* trip */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E399605A27D0BBE60098B07A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7B27302ABB00A0F4DC /* Main.storyboard */,
+				E3DD3697276B791800629F1E /* Second.storyboard */,
+				E35A9F8027302ABC00A0F4DC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E399605B27D0BC660098B07A /* explore */ = {
+			isa = PBXGroup;
+			children = (
+				E3D6021627689374002C3EAF /* ExploreTVCell.swift */,
+			);
+			path = explore;
+			sourceTree = "<group>";
+		};
+		E399605C27D0BC910098B07A /* trip */ = {
+			isa = PBXGroup;
+			children = (
+				E36F6B5F27510F9700D1C38B /* TripTVCell.swift */,
+				E36F6B5D2750E71F00D1C38B /* TripTVCell0.swift */,
+			);
+			name = trip;
+			sourceTree = "<group>";
+		};
+		E3D169B9273AA91E00788B3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7FF07276A33AF00734942 /* LogInVC.swift */,
+				E36CA1472739105200330C8A /* explore */,
+				E36CA1482739106200330C8A /* map */,
+				E36CA14A2739108000330C8A /* add */,
+				E36CA1492739107500330C8A /* trip */,
+				E36CA14627390E5500330C8A /* more */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E35A9F7127302ABB00A0F4DC /* Dream Trip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35A9F8627302ABC00A0F4DC /* Build configuration list for PBXNativeTarget "Dream Trip" */;
+			buildPhases = (
+				6B61CF2743C5CC4F82307949 /* [CP] Check Pods Manifest.lock */,
+				E35A9F6E27302ABB00A0F4DC /* Sources */,
+				E35A9F6F27302ABB00A0F4DC /* Frameworks */,
+				E35A9F7027302ABB00A0F4DC /* Resources */,
+				F3EAE7B6FC038CD17774B281 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dream Trip";
+			productName = "Dream Trip";
+			productReference = E35A9F7227302ABB00A0F4DC /* Dream Trip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E35A9F6A27302ABB00A0F4DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E35A9F7127302ABB00A0F4DC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = E35A9F6D27302ABB00A0F4DC /* Build configuration list for PBXProject "Dream Trip" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E35A9F6927302ABB00A0F4DC;
+			productRefGroup = E35A9F7327302ABB00A0F4DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E35A9F7127302ABB00A0F4DC /* Dream Trip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E35A9F7027302ABB00A0F4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35A9F8227302ABC00A0F4DC /* LaunchScreen.storyboard in Resources */,
+				E34440EA27609CFE00C0C230 /* trip.json in Resources */,
+				E3D7FF0E276A54EB00734942 /* Duh Fuse - French Fuse.mp3 in Resources */,
+				E35A9F7F27302ABC00A0F4DC /* Assets.xcassets in Resources */,
+				E35A9F7D27302ABB00A0F4DC /* Main.storyboard in Resources */,
+				E37AB23227A39B6100B1A2AB /* GoogleService-Info.plist in Resources */,
+				E3DD3699276B791800629F1E /* Second.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B61CF2743C5CC4F82307949 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dream Trip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3EAE7B6FC038CD17774B281 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dream Trip/Pods-Dream Trip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dream Trip/Pods-Dream Trip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dream Trip/Pods-Dream Trip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E35A9F6E27302ABB00A0F4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36F6B6027510F9700D1C38B /* TripTVCell.swift in Sources */,
+				E36F6B5E2750E71F00D1C38B /* TripTVCell0.swift in Sources */,
+				E3D6021727689374002C3EAF /* ExploreTVCell.swift in Sources */,
+				E35A9F7A27302ABB00A0F4DC /* ExploreVC.swift in Sources */,
+				E3D169BB273ABB1A00788B3D /* MoreVC.swift in Sources */,
+				E3B14691273BBADB00CE7192 /* MoreVC0.swift in Sources */,
+				E34289B0275CF8C800BB1811 /* TripVCResult.swift in Sources */,
+				E342AEAC274D25A600DC7BFB /* TripVC.swift in Sources */,
+				E35A9F7627302ABB00A0F4DC /* AppDelegate.swift in Sources */,
+				E3D7FF08276A33AF00734942 /* LogInVC.swift in Sources */,
+				E342AEAE274D354E00DC7BFB /* addVC.swift in Sources */,
+				E35A9F7827302ABB00A0F4DC /* SceneDelegate.swift in Sources */,
+				E3FC00B327609ACF00A3EA57 /* ExploreDetailVC.swift in Sources */,
+				E31AD71827398ED800E24E71 /* MapVC1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E35A9F7B27302ABB00A0F4DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35A9F7C27302ABB00A0F4DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E35A9F8027302ABC00A0F4DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35A9F8127302ABC00A0F4DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E3DD3697276B791800629F1E /* Second.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3DD3698276B791800629F1E /* Base */,
+			);
+			name = Second.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E35A9F8427302ABC00A0F4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E35A9F8527302ABC00A0F4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E35A9F8727302ABC00A0F4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA8841BDF6CAAC7050EF85D /* Pods-Dream Trip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XD4MD88FJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dream Trip/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允許此App使用相機";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "是否允許此App定位此使用者的位置Always and When In Use Usage Description";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否允許此App定位此使用者的位置When In Use Usage Description";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允許此App使用相簿";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "是否允許此App使用相簿";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stan.Dream-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E35A9F8827302ABC00A0F4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D958D5154EF7AFE7D1E2CC7 /* Pods-Dream Trip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XD4MD88FJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dream Trip/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允許此App使用相機";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "是否允許此App定位此使用者的位置Always and When In Use Usage Description";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否允許此App定位此使用者的位置When In Use Usage Description";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允許此App使用相簿";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "是否允許此App使用相簿";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stan.Dream-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E35A9F6D27302ABB00A0F4DC /* Build configuration list for PBXProject "Dream Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35A9F8427302ABC00A0F4DC /* Debug */,
+				E35A9F8527302ABC00A0F4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35A9F8627302ABC00A0F4DC /* Build configuration list for PBXNativeTarget "Dream Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35A9F8727302ABC00A0F4DC /* Debug */,
+				E35A9F8827302ABC00A0F4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E35A9F6A27302ABB00A0F4DC /* Project object */;
+}
